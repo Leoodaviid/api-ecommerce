@@ -1,0 +1,12 @@
+{
+  "/api/v1/products": "/products",
+  "/api/v1/products/:id": "/products/:id",
+  "/api/v1/categories": "/categories",
+  "/api/v1/categories/:id": "/categories/:id",
+  "/api/v1/reviews": "/reviews",
+  "/api/v1/reviews/:id": "/reviews/:id",
+  "/api/v1/users": "/users",
+  "/api/v1/users/:id": "/users/:id",
+  "/api/v1/users/:id/orders": "/orders?userId=:id",
+  "/api/v1/users/:id/orders/:orderId": "/orders?userId=:id&orderId=:orderId"
+}
